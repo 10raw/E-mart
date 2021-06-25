@@ -1,0 +1,19 @@
+.greet{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    background-color: rgb(211, 9, 9);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 15rem;
+    color: rgb(252, 252, 252);
+    
+}
+body{
+    margin-top: 0em;
+    background-image:url("back1.jpg");
+    background-size: 100%;
+    margin-left: 0em;
+    height: 720px;
+}
+

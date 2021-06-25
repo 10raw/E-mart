@@ -1,0 +1,35 @@
+#paytm,#creditcard,#proceed{
+    padding: 0.7rem;
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(darkseagreen,darkslategrey);
+    
+    color:white;
+}
+#proceed{
+    background-image: linear-gradient(rgb(195, 231, 229),rgb(173, 196, 196));
+    color:black;
+}
+#morder,#border,#aorder,#oorder,#torder,#lorder,#gorder,#corder,#tottext{
+    font-size: 1.8rem;
+    font-family: 'Gafata', sans-serif;
+}
+.titlecart{
+    font-size: 3rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.orderdets{
+    background-image: linear-gradient(rgb(201, 154, 192),rgb(103, 137, 167));
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+body{
+    background-image: linear-gradient(rgb(170, 198, 212),rgb(121, 162, 189));
+    background-repeat: no-repeat;
+}

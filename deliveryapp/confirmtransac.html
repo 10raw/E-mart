@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="groceries.php"></script>
+   <script src="payoptions.js"></script>
+   <link rel="stylesheet" href="conpaystyle.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gafata&display=swap" rel="stylesheet">
+    <title>Ninja Services</title>
+    
+</head>
+<body>
+
+<script>
+
+var gha1=sessionStorage.getItem('gha');
+var ghb1=sessionStorage.getItem('ghb');
+var ghc1=sessionStorage.getItem('ghc');
+var ghd1=sessionStorage.getItem('ghd');
+var ghe1=sessionStorage.getItem('ghe');
+var ghf1=sessionStorage.getItem('ghf');
+var ghg1=sessionStorage.getItem('ghg');
+var ghh1=sessionStorage.getItem('ghh');
+var totcash1=sessionStorage.getItem('totcash');
+sessionStorage.clear();
+</script>
+<center><p class="titlecart">Your Cart</p>
+<hr>
+<div class="orderdets">
+<pre id="morder">Mango        <script>document.write(gha1);</script> dozen   <script>document.write(579*gha1);</script> Rs</pre>
+<script>
+document.getElementById("morder").style.display="none";
+if(gha1>0){
+    document.getElementById("morder").style.display="block";
+}</script>
+<pre id="border">Brocoli        <script>document.write(ghb1);</script> kg   <script>document.write(70*ghb1);</script> Rs</pre>
+<script>
+document.getElementById("border").style.display="none";
+if(ghb1>0){
+    document.getElementById("border").style.display="block";
+}
+</script>
+<pre id="aorder">Apples        <script>document.write(ghc1);</script> kg     <script>document.write(150*ghc1);</script> Rs</pre>
+<script>
+document.getElementById("aorder").style.display="none";
+if(ghc1>0){
+    document.getElementById("aorder").style.display="block";
+}
+</script>
+<pre id="torder">Tomatoes        <script>document.write(ghd1);</script> kg     <script>document.write(119*ghd1);</script> Rs</pre>
+<script>
+document.getElementById("torder").style.display="none";
+if(ghd1>0){
+    document.getElementById("torder").style.display="block";
+}
+</script>
+<pre id="oorder">Oranges        <script>document.write(ghe1);</script> kg       <script>document.write(179*ghe1);</script> Rs</pre>
+<script>
+document.getElementById("oorder").style.display="none";
+if(ghe1>0){
+    document.getElementById("oorder").style.display="block";
+}
+</script>
+<pre id="corder">Carrots        <script>document.write(ghf1);</script> kg        <script>document.write(79*ghf1);</script> Rs</pre>
+<script>
+document.getElementById("corder").style.display="none";
+if(ghf1>0){
+    document.getElementById("corder").style.display="block";
+}
+</script>
+<pre id="lorder">Lettuce        <script>document.write(ghg1);</script> kg        <script>document.write(99*ghg1);</script> Rs</pre>
+<script>
+document.getElementById("lorder").style.display="none";
+if(ghg1>0){
+    document.getElementById("lorder").style.display="block";
+}
+</script>
+<pre id="gorder">Grapes        <script>document.write(ghh1);</script> kg         <script>document.write(129*ghh1);</script> Rs</pre>
+<script>
+document.getElementById("gorder").style.display="none";
+if(ghh1>0){
+    document.getElementById("gorder").style.display="block";
+}
+</script>
+<pre id="tottext">Total Purchase Price(Rs.)        <script>document.write(totcash1);</script></pre>
+</div>
+</center>
+<center>
+<hr>
+<button id="proceed" onclick="showpayoptions()">Proceed to Pay: </button><br><br><br>
+<div id="payoptions">
+<pre><button id="paytm">PayTM</button>         <button id="creditcard">Credit Card</button></pre>
+
+
+<script>document.getElementById("payoptions").style.display="none";</script>
+</center>
+</body>
+</html>
+

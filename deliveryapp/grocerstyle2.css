@@ -1,0 +1,148 @@
+.horbar1{
+    height: 5rem;
+    background-color:rgb(255, 230, 2);
+    margin-left: 0mm;
+    margin-right: 0mm;
+    margin-top: 0mm;
+    width: 100%;
+}
+.greet{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+.cartbut{
+    size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 1.8rem;
+    background-color:rgb(142, 194, 38);
+    color:#ffffff;
+    
+}
+body{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
+    vertical-align: 0em;
+    
+    }
+html{
+margin: 0em;
+background-image: url(bac11.png);
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0em;
+    margin: 0em;
+}
+.grocers{
+    display: table;
+}
+
+.tabrow{
+    display: table-row;
+    height: 100px;
+}
+.tabrow2{
+    display: table-row;
+    height: 100px;
+}
+.tabcol{
+    border: 11px solid;
+    border-color: ghostwhite;
+    background-color: rgb(252, 235, 4);
+    display: table-cell;
+    padding: 9px;
+    padding-bottom: 0em;
+    
+   margin: 2px;
+   margin-right: 1rem;
+}
+.tabcol>pre{
+    font-size: 1.3rem;
+}
+#mango1,#brocoli1,#apple1,#tomato1,#orange1,#lettuce1,#carrot1,#grape1,#totthing,#totalrs,#calc1{
+    font-size: 1.5rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+    align-items: center;
+    align-content: center;
+    margin-left: 6rem;
+    
+  
+}
+pre{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    font-size: 1.5rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+    
+}
+.cartleh{
+    align-items: center;
+    align-content: center;
+    margin-left: 4rem;
+    text-align: center;
+    align-self: center;
+   
+    
+}
+#plus1,
+#plus2,
+#plus3,
+#plus4,
+#plus5,
+#plus6,
+#plus7,
+#plus8,
+#sub1,
+#sub2,
+#sub3,
+#sub4,
+#sub5,
+#sub6,
+#sub7,
+#sub8,
+#calc1{
+ font-size: 1.5rem;
+ padding-left: 0.5rem;
+ padding-right: 0.5rem;
+ margin-right: 1rem;
+ background-image: linear-gradient(rgb(116, 179, 15),rgb(45, 182, 17));
+}
+
+#totthing,#totalrs{
+    font-size: 1.8rem;
+}
+
+#confirmorderbut1{
+    padding: 0.8rem;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    float:right;
+    padding-bottom: 1rem;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+    background-color: palevioletred;
+    color:mintcream;
+}
+#quantity1,
+#quantity2,
+#quantity3,
+#quantity4,
+#quantity5,
+#quantity6,
+#quantity7,
+#quantity8,
+#totalrs
+{
+    display: inline-flex;
+}
